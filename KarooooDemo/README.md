@@ -18,19 +18,17 @@
 
 
 # Pages Details
-## Login Page
 
+
+## Login Page
 Enter any valid email and Password must be minimum 8 digit then select country
 
 ![Login](Screenshot/Login.png)
 
-
 ## User List Page 
 
-
-/Users/muzaffar/Desktop/Simulator Screen Shot - iPhone 14 Pro - 2023-01-05 at 19.27.47.png
+![Login](Screenshot/List.png)
 
 ## User Detail Page 
 
-
-/Users/muzaffar/Desktop/Simulator Screen Shot - iPhone 14 Pro - 2023-01-05 at 19.28.30.png
+![Login](Screenshot/Detail.png)
