@@ -64,9 +64,7 @@
 		382ABDD82966F3770029E431 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		382ABDDA2967010D0029E431 /* TextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Extension.swift"; sourceTree = "<group>"; };
 		382ABDDC29670BC30029E431 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		382ABDE52967128E0029E431 /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login.png; sourceTree = "<group>"; };
-		382ABDE62967128E0029E431 /* List.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = List.png; sourceTree = "<group>"; };
-		382ABDE72967128E0029E431 /* Detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Detail.png; sourceTree = "<group>"; };
+		382ABDE8296713180029E431 /* Screenshot */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Screenshot; sourceTree = "<group>"; };
 		389D41182962A53900BB8D98 /* KarooooDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KarooooDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		389D411B2962A53900BB8D98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		389D411D2962A53900BB8D98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,21 +128,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		382ABDE42967128E0029E431 /* Screenshot */ = {
-			isa = PBXGroup;
-			children = (
-				382ABDE52967128E0029E431 /* Login.png */,
-				382ABDE62967128E0029E431 /* List.png */,
-				382ABDE72967128E0029E431 /* Detail.png */,
-			);
-			name = Screenshot;
-			path = ../Screenshot;
-			sourceTree = "<group>";
-		};
 		389D410F2962A53900BB8D98 = {
 			isa = PBXGroup;
 			children = (
-				382ABDE42967128E0029E431 /* Screenshot */,
+				382ABDE8296713180029E431 /* Screenshot */,
 				382ABDDC29670BC30029E431 /* README.md */,
 				389D411A2962A53900BB8D98 /* KarooooDemo */,
 				389D41312962A53A00BB8D98 /* KarooooDemoTests */,
