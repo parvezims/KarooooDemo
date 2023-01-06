@@ -75,7 +75,7 @@ class LoginViewController: UIViewController, Storyboard {
         mainCoordinator?.presentCountryList(controller: self)
     }
     
-    func configureViews(){
+    func configureViews() {
         
         tfEmail.showErrorData()
         tfCountry.showErrorData()
@@ -124,6 +124,15 @@ class LoginViewController: UIViewController, Storyboard {
         tfEmail.text = CTConstans.fakeUserEmail
         tfPassword.text = CTConstans.fakeUserPassword
         tfCountry.text = CTConstans.fakeUserCountry
+    }
+    
+    
+    func setupAccessibility() {
+        
+        tfEmail.accessibilityIdentifier = "Email_TextField"
+        tfPassword.accessibilityIdentifier = "Password_TextField"
+        tfCountry.accessibilityIdentifier = "Country_TextField"
+        
     }
 }
 

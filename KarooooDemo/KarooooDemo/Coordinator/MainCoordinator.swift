@@ -33,7 +33,7 @@ class MainCoordinator : Coordinator {
     func showUsersDetailView(user: User) {
         let usersView = UserDetailsViewController.instantiate()
         usersView.mainCoordinator = self
-        usersView.setUser(user: user)
+        usersView.user = user
         self.navController.pushViewController(usersView, animated: false)
     }
     

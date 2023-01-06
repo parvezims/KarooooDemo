@@ -14,10 +14,10 @@ class CountryListViewModel {
     
     init() {
         countriesList = [Country]()
-        self.fetchCountryList()
+        countriesList.append(contentsOf:self.fetchCountryList())
     }
     
-    func fetchCountryList() {
+    func fetchCountryList() -> [Country]{
         
         var countriesData = [Country]()
         for code in NSLocale.isoCountryCodes  {
@@ -27,6 +27,7 @@ class CountryListViewModel {
                 countriesData.append(Country(name: name, flag: flag))
             } 
         }
-        countriesList.append(contentsOf: countriesData)
+        return countriesData
+        
     }
 }
