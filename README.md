@@ -23,12 +23,12 @@
 ## Login Page
 Enter any valid email and Password must be minimum 8 digit then select country
 
-![Login](Screenshot/Login.png)
+![Login](KarooooDemo/Screenshot/Login.png)
 
 ## User List Page 
 
-![Login](Screenshot/List.png)
+![Login](KarooooDemo/Screenshot/List.png)
 
 ## User Detail Page 
 
-![Login](Screenshot/Detail.png)
+![Login](KarooooDemo/Screenshot/Detail.png)
